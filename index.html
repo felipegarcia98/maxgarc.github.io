@@ -1,15 +1,11 @@
-<!--<!DOCTYPE html>-->
-<!--<html>-->
-<!--<h1>Welcome to my website</h1>-->
-<!--<p>I'm Max Garcia, PhD Candidate at economics at Boston University.<p>-->
-<!--</body>-->
-<!--</html>-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Max García González and complemented by Felipe García González">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="description" content="DESCRIPTION FOR SEO. Max García webpage. Max García..."> -->
   <title>Max Garcia</title>
   <link rel="stylesheet" href="css/marx.min.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -27,6 +23,7 @@
       <p><a href="mailto:maxgar@bu.edu">maxgar@bu.edu</a></p>
     </header>
     <!-- Navigation -->
+    <hr>
     <nav>
       <ul>
         <li><a href="#publications">Projects</a></li>
@@ -35,11 +32,20 @@
         <li><a href="CV Maximiliano Garcia EN.pdf"  target="_blank">CV</a></li>
       </ul>
     </nav>
-    <!-- section -->
-    <section id="bio">
+    <hr>
+    <!-- Section -->
+    <section id="bio" class="no-mobile">
+      <div class="portrait">
+        <img src="Max-Garcia_06_.jpg" alt="Portrait of Max Garcia with black shirt and white background">
+      </div>
+      <div>
+        <p>Hi! I am Max Garcia, 5th year PhD student at Boston University. I am an applied microeconomist, working on Development, Political Economy and Environmental Economics. I completed my BA and MA in Economics at the University of Chile. You can check my <a href="CV Maximiliano Garcia EN.pdf"  target="_blank">CV here</a>.</p>
+        <p>I am currently investigating how climate change impacts are mediated by institutions. Starting from the analysis of the institutions governing water usage and property in Chile, I show the effects of property rights enforcement on the distribution of water under private property. Climate change is expected to <a href="https://www.usgs.gov/science/science-explorer/climate/droughts-and-climate-change"  target="_blank">increase the frequency, length and intensity of events of water scarcity</a>.  If you want to know more, please reach out!</p>
+      </div>
+    </section>
+    <section id="bio" class="mobile">
       <div class="portrait">
         <img src="Max-Garcia_06_.jpg" alt="Portrait">
-         <!--width="300" height="300" -->
       </div>
       <div>
         <p>Hi! I am Max Garcia, 5th year PhD student at Boston University. I am an applied microeconomist, working on Development, Political Economy and Environmental Economics. I completed my BA and MA in Economics at the University of Chile. You can check my <a href="CV Maximiliano Garcia EN.pdf"  target="_blank">CV here</a>.</p>
@@ -93,10 +99,13 @@
 
     <!-- footer -->
     <footer>
-      <img src="IMG_4419.JPG" >
+      <img src="IMG_4419.JPG" alt="Image of Pingo Glacier amont hills and mountains, with its blue ice and a foggy atmosphere ">
       <!--<p>&copy; Matthew Blode</p>-->
       <p>
-        <small>Photo: Maximiliano Garcia. Pingo Glacier, Southern Icefields, Chile, 2018. <a href="https://goo.gl/maps/hC2QkPP3AzGAXNWPA">Location</a>. </small>
+        <small>
+          Photo: Maximiliano Garcia. Pingo Glacier, Southern Icefields, Chile, 2018. 
+          <a href="https://goo.gl/maps/hC2QkPP3AzGAXNWPA">Location</a>. 
+        </small>
       </p>
     </footer>
   </main>
