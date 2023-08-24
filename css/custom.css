@@ -69,6 +69,10 @@ p {
   text-align: center;
 }
 
+.portrait img {
+  margin: 0;
+}
+
 .portrait {
   display: block;
   float: none;
@@ -77,7 +81,8 @@ p {
   min-width: 35vh
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 666px) and (min-height: 400px) {
+/* @media only screen and (min-width: 768px) and (min-height: 400px) {*/
   .mobile {
     display: none;
   }
@@ -88,5 +93,18 @@ p {
     float: right;
     margin: 0 4vw 3vh;
     padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 666px) and (max-height: 400px) {
+/* @media only screen and (min-width: 768px) and (max-height: 400px) { */
+  .mobile {
+    flex-direction: row-reverse;
+  }
+
+  .portrait {
+    margin-left: 7vw;
+    padding-bottom: 0;
+    min-width: 25vw;
   }
 }
